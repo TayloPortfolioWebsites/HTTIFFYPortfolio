@@ -186,6 +186,6 @@ body {
     border: 1px solid #FFFAFA;
 }
 
-.fb-logo-style{
+.fb-logo-style, .twitter-logo-style{
     width: 30px;
 }
