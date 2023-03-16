@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(images/bg-web.jpg);
+    font-family: 'Mulish', sans-serif;
+}
+
+/* NAVIGATION BAR */
+.navbar-style{
+    background-color: #2C3333;
+    color: white;
+    font-weight: 700;
+    padding-top: 1rem;
+    padding-right: 4rem;
+}
+
+.navbar-brand{
+    font-size: 30px;
+    margin-left: 5%;
+}
+
+.navbar-brand-color{
+    color: #21AAAD;
+}
+
+.navbar-collapse-style{
+    margin-left: 60%;
+}
+
+.nav-item{
+    margin-right: 30px;
+}
+
+/* TITLE SECTION */
+
+#title{
+    
+}
+
+.title-section{
+    margin-top: 17%;
+}
+
+.name-style{
+    font-family: 'Bungee', cursive;
+    font-size: 60px;
+    text-align: center;
+}
+
+.description-style{
+    text-align: center;
+}
