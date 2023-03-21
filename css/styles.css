@@ -281,3 +281,19 @@ a {
   height: 100vh;
   text-align: center;
 }
+
+.portfolio-title-style{
+  color: white;
+  font-weight: 700;
+}
+
+.portfolio-sub-style{
+  color: white;
+  font-weight: 300;
+}
+
+.row-style{
+  margin-top: 3%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
