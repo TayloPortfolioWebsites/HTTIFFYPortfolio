@@ -364,17 +364,82 @@ a {
   /* FOOTER SECTION */
   footer{
     background-color: #0E8388;
+    padding: 3% 20%;
+  }
+
+  .footer-left{
+    display: inline-block;
   }
 
   .navbar-brand-2{
     color: white;
     font-weight: 700;
     font-size: 30px;
-    margin-left: 8%;
+  }
+
+  .first-row-contact{
+    margin-top: 40px;
+  }
+
+  .second-row-contact{
+    margin-bottom: 40px;
   }
 
   .navbar-brand-color-2{
     color: #7CDFDF;
     font-weight: 700;
     font-size: 30px;
+  }
+
+  .gmail-style, .phone-style{
+    width: 30px;
+  }
+
+  .email-style, .number-style{
+    display: inline-block;
+    color: white;
+    font-weight: 400;
+    margin-left: 10px;
+    margin-bottom: 0;
+  }
+
+  .location-style, .copyright-style{
+    font-weight: 600;
+    color: white;
+  }
+
+  .footer-right{
+    display: inline-block;
+    margin-left: 20%;
+  }
+
+  .first-row-right{
+    color: white;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+
+  input{
+    background-color: #2E4F4F;
+    border: 1px solid #2E4F4F;
+    color: white;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    height: 40px;
+    width: 300px;
+  }
+
+  ::placeholder{
+    color: white;
+  }
+
+  .textarea-box{
+    height: 100px;
+  }
+
+  .submit-button{
+    background-color: #33BF30;
+    text-align: center;
+    width: 150px;
+    padding-left: 0;
   }
