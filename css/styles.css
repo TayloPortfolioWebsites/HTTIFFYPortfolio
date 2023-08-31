@@ -21,7 +21,7 @@ input {
   width: 300px; }
 
 #Title {
-  background-image: linear-gradient(rgba(3, 4, 7, 0.48), rgba(5, 10, 30, 0.48)), url(/images/bg-web.jpg);
+  background-image: linear-gradient(rgba(3, 4, 7, 0.48), rgba(5, 10, 30, 0.48)), url(https://github.com/TayloPortfolioWebsites/HTTIFFYPortfolio/blob/main/images/bg-web.jpg?raw=true);
   height: 100vh; }
 
 #About {
@@ -294,22 +294,22 @@ input {
   text-shadow: 2px 2px black; }
 
 .portfolio__card-1 {
-  background-image: url("/images/css-personal-site.png"); }
+  background-image: url("https://github.com/TayloPortfolioWebsites/HTTIFFYPortfolio/blob/main/images/css-personal-site.png?raw=true"); }
 
 .portfolio__card-2 {
-  background-image: url("/images/dice-website.png"); }
+  background-image: url("https://github.com/TayloPortfolioWebsites/HTTIFFYPortfolio/blob/main/images/dice-website.png?raw=true"); }
 
 .portfolio__card-3 {
-  background-image: url("/images/khram-academy.png"); }
+  background-image: url("https://github.com/TayloPortfolioWebsites/HTTIFFYPortfolio/blob/main/images/khram-academy.png?raw=true"); }
 
 .portfolio__card-4 {
-  background-image: url("/images/vermiweb.png"); }
+  background-image: url("https://github.com/TayloPortfolioWebsites/HTTIFFYPortfolio/blob/main/images/vermiweb.png?raw=true"); }
 
 .portfolio__card-5 {
-  background-image: url("/images/dream-maker.png"); }
+  background-image: url("https://github.com/TayloPortfolioWebsites/HTTIFFYPortfolio/blob/main/images/dream-maker.png?raw=true"); }
 
 .portfolio__card-6 {
-  background-image: url("/images/burgers-galore.png"); }
+  background-image: url("https://github.com/TayloPortfolioWebsites/HTTIFFYPortfolio/blob/main/images/burgers-galore.png?raw=true"); }
 
 .footer__left-side {
   padding-top: 3%;
