@@ -73,8 +73,8 @@
         margin-right: 8%;
     }
     &__item{
-        margin-left: 15%;
-        text-align: center;
+        margin: 2% 8% 0 0;
+        text-align: right;
     }
     &__link{
         color: #c6c6c6;
@@ -160,7 +160,7 @@
         float: right;
         margin-right: 6%;
         margin-top: 30%;
-        width: 40%;
+        width: 300px;
     }
     &__right-side{
         padding-right: 0;
@@ -293,7 +293,6 @@
         position: relative;
     }
     &__card-1-hover{
-        position: relative;
         display: block;
         width: 100%;
         height: 100%;
@@ -303,10 +302,12 @@
         transition: all 0.3s ease-in-out;
         box-sizing: border-box;
         text-align: center;
-        padding: 30% 0;
     }
     &__card-1:hover &__card-1-hover, &__card-2:hover &__card-1-hover, &__card-3:hover &__card-1-hover, &__card-4:hover &__card-1-hover, &__card-5:hover &__card-1-hover, &__card-6:hover &__card-1-hover{
         opacity: 1;
+    }
+    &__card-1-hover-text{
+        padding: auto 8px;
     }
     &__card-1-hover-text-style{
         font-weight: 700;
@@ -376,5 +377,205 @@
         color: white;
         font-weight: 700;
         margin-bottom: 30px;
+    }
+  }
+
+  @media (max-width: 1475px) {
+    .about{
+        &__right-side-description-text{
+            font-size: 19px;
+        }
+    }
+  }
+
+  @media (max-width: 1400px) {
+    .about{
+        &__right-side-description-text{
+            font-size: 18px;
+        }
+    }
+  }
+
+  @media (max-width: 1186px) {
+    .about{
+        &__right-side-description-text{
+            font-size: 17px;
+        }
+    }
+    .portfolio{
+        &__row{
+            width: 90%;
+        }
+        &__style{
+            margin-top: 5%;
+        }
+    }
+  }
+
+  @media (max-width: 1130px) {
+    .about{
+        &__carousel-description{
+            height: 160px;
+        }
+    }
+  }
+
+  @media (max-width: 1100px) {
+    .title{
+        &__section{
+            margin-top: 25%;
+        }
+    }
+  }
+
+  @media (max-width: 1032px) {
+    .about{
+        &__socials-anchor-tag{
+            padding: 0 5px;
+        }
+    }
+  }
+
+  @media (max-width: 992px) {
+    .about{
+        &__left-side{
+            display: none;
+        }
+        &__right-side{
+            margin: 25% auto;
+            padding: 0%;
+        }
+        &__right-side-title{
+            margin-top: 0%;
+        }
+        &__right-side-description{
+            margin: auto;
+            width: 88%;
+        }
+        &__right-side-title-text{
+            text-align: center;
+        }
+        &__right-side-description-text{
+            margin: auto;
+            font-size: 20px;
+            text-align: center;
+        }
+        &__socials{
+            text-align: center;
+        }
+        &__socials-anchor-tag{
+            padding: 0 10px;
+        }
+    }
+  }
+
+  @media (max-width: 991.20px) {
+    #Contact{
+        height: 90vh;
+    }
+    .about{
+        &__right-side-description{
+            width: 50%;
+        }
+    }
+    .footer{
+        &__left-side{
+            padding: 40px 0 0 0;
+            text-align: center;
+        }
+        &__right-side{
+            padding: 6% 0 0 0;
+            text-align: center;
+        }
+        &__socials-style, &__location{
+            margin-top: 10px;
+        }
+        &__second-row-socials{
+            margin: 0;
+        }
+    }
+  }
+
+  @media (max-width: 870px){
+    .about{
+        &__right-side-description{
+            width: 60%;
+        }
+    }
+  }
+
+  @media (max-width: 840px) {
+    .title{
+        &__section{
+            margin-top: 30%;
+        }
+    }
+  }
+
+  @media (max-width: 767.20px) {
+    #Portfolio{
+        height: 250vh;
+    }
+    .portfolio{
+        &__style{
+            margin-top: 10%;
+        }
+    }
+  }
+
+  @media (max-width: 730px) {
+    .about{
+        &__right-side{
+            margin: 30% auto;
+            padding: 0%;
+        }
+        &__right-side-description{
+            width: 70%;
+        }
+    }
+  }
+
+  @media (max-width: 620px) {
+    .about{
+        &__right-side{
+            margin: 40% auto;
+            padding: 0%;
+        }
+        &__right-side-description-text{
+            margin: auto;
+            font-size: 19px;
+            text-align: center;
+        }
+    }
+  }
+
+  @media (max-width: 550px) {
+    .title{
+        &__section{
+            margin-top: 40%;
+        }
+    }
+  }
+
+  @media (max-width: 530px) {
+    .about{
+        &__right-side-description-text{
+            margin: auto;
+            font-size: 18px;
+            text-align: center;
+        }
+    }
+  }
+
+  @media (max-width: 476px) {
+    .about{
+        &__right-side-description{
+            width: 95%;
+        }
+    }
+    .portfolio{
+        &__style{
+            margin-top: 15%;
+        }
     }
   }
