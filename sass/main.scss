@@ -175,6 +175,7 @@
     }
     &__right-side-description{
         color: white;
+        font-size: 16px;
         text-shadow: 2px 2px black;
         width: 60%;
     }
@@ -380,134 +381,100 @@
     }
   }
 
-  @media (max-width: 1475px) {
+  @media (max-width: 1155px) {
     .about{
-        &__right-side-description-text{
-            font-size: 19px;
+        &__right-side-description{
+            font-size: 14px;
         }
     }
   }
 
-  @media (max-width: 1400px) {
-    .about{
-        &__right-side-description-text{
-            font-size: 18px;
-        }
-    }
-  }
-
-  @media (max-width: 1186px) {
-    .about{
-        &__right-side-description-text{
-            font-size: 17px;
-        }
-    }
-    .portfolio{
-        &__row{
-            width: 90%;
-        }
-        &__style{
-            margin-top: 5%;
-        }
-    }
-  }
-
-  @media (max-width: 1130px) {
-    .about{
-        &__carousel-description{
-            height: 160px;
-        }
-    }
-  }
-
-  @media (max-width: 1100px) {
+  @media (max-width: 1024px) {
     .title{
         &__section{
             margin-top: 25%;
         }
     }
-  }
 
-  @media (max-width: 1032px) {
-    .about{
-        &__socials-anchor-tag{
-            padding: 0 5px;
+    .portfolio{
+        &__title-style{
+            margin-top: 15%;
         }
     }
   }
 
-  @media (max-width: 992px) {
+  @media (max-width: 1007px) {
     .about{
-        &__left-side{
-            display: none;
-        }
-        &__right-side{
-            margin: 25% auto;
-            padding: 0%;
-        }
-        &__right-side-title{
-            margin-top: 0%;
-        }
-        &__right-side-description{
-            margin: auto;
-            width: 88%;
-        }
-        &__right-side-title-text{
-            text-align: center;
-        }
-        &__right-side-description-text{
-            margin: auto;
-            font-size: 20px;
-            text-align: center;
-        }
-        &__socials{
-            text-align: center;
-        }
-        &__socials-anchor-tag{
-            padding: 0 10px;
+        &__button{
+            padding: 11px 25px;
         }
     }
   }
 
   @media (max-width: 991.20px) {
-    #Contact{
-        height: 90vh;
-    }
     .about{
-        &__right-side-description{
-            width: 50%;
-        }
-    }
-    .footer{
         &__left-side{
-            padding: 40px 0 0 0;
-            text-align: center;
+            display: none;
         }
         &__right-side{
-            padding: 6% 0 0 0;
+            margin: 2% auto auto auto;
+            padding: 0;
             text-align: center;
         }
-        &__socials-style, &__location{
-            margin-top: 10px;
-        }
-        &__second-row-socials{
-            margin: 0;
-        }
-    }
-  }
-
-  @media (max-width: 870px){
-    .about{
         &__right-side-description{
-            width: 60%;
+            font-size: 17px;
+            margin: auto;
+            width: 80%;
+        }
+        &__carousel-description{
+            height: 10%;
+        }
+    }
+
+    #Contact{
+        height: 95vh;
+    }
+
+    .footer{
+        &__left-side, &__right-side{
+            padding: 0;
+            text-align: center;
+            width: 100%;
+        }
+        &__right-side{
+            margin-top: 5%;
+        }
+        &__socials-style{
+            margin-top: 0;
+        }
+        &__location{
+            margin-top: 2%;
         }
     }
   }
 
-  @media (max-width: 840px) {
+  @media (max-width: 769px) {
     .title{
         &__section{
-            margin-top: 30%;
+            margin-top: 35%;
+        }
+        &__right-side{
+            text-align: center;
+        }
+    }
+
+    .portfolio{
+        &__title-style{
+            margin-top: 20%;
+        }
+    }
+    
+    .about{
+        &__right-side-description{
+            width: 100%;
+        }
+        &__button{
+            padding: 11px 20px;
         }
     }
   }
@@ -516,66 +483,32 @@
     #Portfolio{
         height: 250vh;
     }
+  }
+
+  @media (max-width: 525px) {
+    .about{
+        &__button{
+            margin-top: 3%;
+        }
+    }
+
     .portfolio{
-        &__style{
-            margin-top: 10%;
+        &__title-style{
+            margin-top: 25%;
         }
     }
   }
 
-  @media (max-width: 730px) {
-    .about{
-        &__right-side{
-            margin: 30% auto;
-            padding: 0%;
-        }
-        &__right-side-description{
-            width: 70%;
-        }
-    }
-  }
-
-  @media (max-width: 620px) {
-    .about{
-        &__right-side{
-            margin: 40% auto;
-            padding: 0%;
-        }
-        &__right-side-description-text{
-            margin: auto;
-            font-size: 19px;
-            text-align: center;
-        }
-    }
-  }
-
-  @media (max-width: 550px) {
+  @media (max-width: 426px) {
     .title{
         &__section{
             margin-top: 40%;
         }
     }
-  }
 
-  @media (max-width: 530px) {
     .about{
-        &__right-side-description-text{
-            margin: auto;
-            font-size: 18px;
-            text-align: center;
-        }
-    }
-  }
-
-  @media (max-width: 476px) {
-    .about{
-        &__right-side-description{
-            width: 95%;
-        }
-    }
-    .portfolio{
-        &__style{
-            margin-top: 15%;
+        &__facebook, &__linkedin{
+            width: 15%;
         }
     }
   }

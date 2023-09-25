@@ -50,15 +50,6 @@
         <div class="title__section">
           <h1 class="title__name-style">HAZEL TIFFANY TAYLO</h1>
           <h5 class="title__description">I'm a <span class="auto-type title__job"></span></h5>
-          <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-          <script>
-            var typed = new Typed(".auto-type",{
-              strings: ["BSCpE Graduate.", "Web Developer."],
-              typeSpeed: 70,
-              backSpeed: 70,
-              loop: true
-            });
-          </script>
           <div class="title__button-style">
             <button class="title__button-1" onclick="window.location.href='#About'">Learn More</button>
           </div>
@@ -69,10 +60,10 @@
     <!---------------------------------------------------------------- ABOUT SECTION ------------------------------------------------------------->
     <section id="About">
       <div class="row about__row" data-aos="fade-right"> 
-        <div class="col-lg-6 about__left-side">
+        <div class="col-6 about__left-side">
           <img class="about__pic" src="https://github.com/TayloPortfolioWebsites/HTTIFFYPortfolio/blob/main/images/my-grad-pic.png?raw=true" alt="college graduation picture">
         </div>
-        <div class="col-lg-6 about__right-side">
+        <div class="col-6 about__right-side">
           <div class="about__right-side-title">
             <h3 class="about__right-side-title-text">ABOUT ME</h3>
           </div>
@@ -80,18 +71,18 @@
             <div id="carouselAbout" class="carousel slide" data-bs-ride="carousel" data-bs-interval="10000">
               <div class="carousel-inner about__carousel-description">
                 <div class="carousel-item active about__carousel-div">
-                  <h5 class="about__right-side-description-text">
+                  <p class="about__right-side-description-text">
                     A highly motivated and hardworking Bachelor of Science in Computer
                     Engineering specialized in Software Engineering graduate from De La
                     Salle University- Dasmariñas. Became a part of Kodego Bootcamp
                     about Full-Stack Web Development and FEdCenter’s IT Interns.
-                  </h5>
+                  </p>
                 </div>
                 <div class="carousel-item">
-                  <h5 class="about__right-side-description-text">
+                  <p class="about__right-side-description-text">
                     Knowledgeable with HTML, CSS, JavaScript, ReactJS, NodeJS, PHP, Microsoft SQL Server and MySQL.
                     With an experience building website projects independently and collaboratively.
-                  </h5>
+                  </p>
                 </div>
               </div>
               <button class="carousel-control-prev" type="button" data-bs-target="#carouselAbout" data-bs-slide="prev">
@@ -199,7 +190,7 @@
     <!---------------------------------------------------------------- FOOTER SECTION -------------------------------------------------------->
     <footer id="Contact">
       <div class="row footer__row">
-        <div class="col-lg-6 footer__left-side">
+        <div class="col-6 footer__left-side">
           <a class="footer__navbar-brand-2" href="#"><span class="navbar__brand-htt">HTT</span>IF<span class="navbar__brand-fy">FY</span></a>
           <div class="footer__socials-style">
             <div class="footer__first-row-socials">
@@ -216,7 +207,7 @@
             <h6 class="footer__copyright-style">&copy Copyright HTTIFFY 2023</h6>
           </div>
         </div>
-        <div class="col-lg-6 footer__right-side">
+        <div class="col-6 footer__right-side">
           <h5 class="footer__first-row-right">Stay Connected</h5>
             <form action="mailto:imhazeltaylo@gmail.com" method="post" enctype="text/plain">
               <input class="footer__email-box" type="text" placeholder="Your Email"><br>
@@ -235,6 +226,16 @@
     <script>
       $(document).ready(function(){
         $(".title__button-1").addClass("animate__animated animate__pulse animate__infinite");
+      });
+    </script>
+    <!-- TYPING SCRIPT -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed(".auto-type",{
+        strings: ["BSCpE Graduate.", "Web Developer."],
+        typeSpeed: 70,
+        backSpeed: 70,
+        loop: true
       });
     </script>
     <!-- ANIMATE ON SCROLL SCRIPT -->
