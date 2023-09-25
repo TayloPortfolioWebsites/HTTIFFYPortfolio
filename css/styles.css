@@ -316,6 +316,7 @@ input {
   background-image: url("https://github.com/TayloPortfolioWebsites/HTTIFFYPortfolio/blob/main/images/burgers-galore.png?raw=true"); }
 
 .portfolio__github, .portfolio__website {
+  margin-right: 10px;
   width: 10%; }
 
 .footer__left-side {
