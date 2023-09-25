@@ -12,6 +12,7 @@
   }
 
   a{
+    color: white;
     text-decoration: none;
   }
 
@@ -312,6 +313,7 @@
     }
     &__card-1-hover-text-style{
         font-weight: 700;
+        padding-top: 15%;
         text-shadow: 2px 2px black;
     }
     &__card-1{
@@ -331,6 +333,9 @@
     }
     &__card-6{
         background-image: url('https://github.com/TayloPortfolioWebsites/HTTIFFYPortfolio/blob/main/images/burgers-galore.png?raw=true');
+    }
+    &__github, &__website{
+        width: 10%;
     }
   }
 
