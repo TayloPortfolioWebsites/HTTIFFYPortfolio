@@ -4,9 +4,11 @@
   padding: 0;
   box-sizing: border-box; }
 
-body {
-  font-family: "Mulish", sans-serif;
+html, body {
   overflow-x: hidden; }
+
+body {
+  font-family: "Mulish", sans-serif; }
 
 a {
   color: white;
@@ -33,7 +35,7 @@ input {
 #Portfolio {
   background: #568586;
   background: linear-gradient(180deg, #568586 0%, #226c6e 35%, #023c46 100%);
-  height: 100vh; }
+  height: 120vh; }
 
 #Contact {
   background-color: #0e8388;
@@ -64,7 +66,7 @@ input {
   color: white; }
 
 .navbar__item {
-  margin-left: 25%; }
+  margin-left: 20%; }
 
 .title__section {
   margin-bottom: 20%;
@@ -244,7 +246,8 @@ input {
   box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; }
 
 .portfolio__style {
-  text-align: center; }
+  text-align: center;
+  padding: 0; }
 
 .portfolio__title-style, .portfolio__description-style {
   color: white; }
@@ -284,11 +287,10 @@ input {
   opacity: 1; }
 
 .portfolio__card-1-hover-text {
-  padding: auto 8px; }
+  padding: 50px 8px; }
 
 .portfolio__card-1-hover-text-style {
   font-weight: 700;
-  padding-top: 15%;
   text-shadow: 2px 2px black; }
 
 .portfolio__card-1 {
@@ -372,6 +374,9 @@ input {
     padding: 11px 25px; } }
 
 @media (max-width: 991.2px) {
+  .navbar__item {
+    margin: 30px 0 0 0;
+    text-align: right; }
   .about__left-side {
     display: none; }
   .about__right-side {
@@ -386,6 +391,8 @@ input {
     height: 10%; }
   #Contact {
     height: 95vh; }
+  .footer__left-side {
+    margin-top: 3%; }
   .footer__left-side, .footer__right-side {
     padding: 0;
     text-align: center;
@@ -404,6 +411,8 @@ input {
     text-align: center; }
   .portfolio__title-style {
     margin-top: 20%; }
+  .about__right-side-title {
+    margin-top: 50%; }
   .about__right-side-description {
     width: 100%; }
   .about__button {
@@ -422,5 +431,13 @@ input {
 @media (max-width: 426px) {
   .title__section {
     margin-top: 40%; }
+  .about__right-side-title {
+    margin-top: 55%; }
+  .about__right-side-description {
+    width: 100%; }
   .about__facebook, .about__linkedin {
     width: 15%; } }
+
+@media (max-width: 376px) {
+  .portfolio__title-style {
+    margin-top: 30%; } }
