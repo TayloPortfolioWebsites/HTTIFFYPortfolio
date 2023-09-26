@@ -141,11 +141,11 @@ input {
 
 .about__pic {
   border-color: #0e8388;
-  border-radius: 60%;
+  border-radius: 50%;
   float: right;
   margin-right: 6%;
   margin-top: 30%;
-  width: 300px; }
+  width: 200px; }
 
 .about__right-side {
   padding-right: 0; }
