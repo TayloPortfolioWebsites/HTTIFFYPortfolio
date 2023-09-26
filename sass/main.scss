@@ -443,12 +443,10 @@
 
     #Contact{
         height: 90vh;
+        padding: 50px 0;
     }
 
     .footer{
-        &__left-side{
-            margin-top: 3%;
-        }
         &__left-side, &__right-side{
             padding: 0;
             text-align: center;

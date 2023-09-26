@@ -390,9 +390,8 @@ input {
   .about__carousel-description {
     height: 10%; }
   #Contact {
-    height: 90vh; }
-  .footer__left-side {
-    margin-top: 3%; }
+    height: 90vh;
+    padding: 50px 0; }
   .footer__left-side, .footer__right-side {
     padding: 0;
     text-align: center;
