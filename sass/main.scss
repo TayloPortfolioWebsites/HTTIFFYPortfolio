@@ -442,7 +442,7 @@
     }
 
     #Contact{
-        height: 95vh;
+        height: 90vh;
     }
 
     .footer{
@@ -498,6 +498,10 @@
   @media (max-width: 767.20px) {
     #Portfolio{
         height: 250vh;
+    }
+
+    #Contact{
+        height: 85vh;
     }
   }
 

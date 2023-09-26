@@ -390,7 +390,7 @@ input {
   .about__carousel-description {
     height: 10%; }
   #Contact {
-    height: 95vh; }
+    height: 90vh; }
   .footer__left-side {
     margin-top: 3%; }
   .footer__left-side, .footer__right-side {
@@ -420,7 +420,9 @@ input {
 
 @media (max-width: 767.2px) {
   #Portfolio {
-    height: 250vh; } }
+    height: 250vh; }
+  #Contact {
+    height: 85vh; } }
 
 @media (max-width: 525px) {
   .about__button {
